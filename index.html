@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1 {
+            color: #333;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .info {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .info h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .contact a {
+            display: block;
+            margin-top: 10px;
+            color: #0077cc;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="profile.jpg" alt="头像" class="profile-img">
+        <h1>个人主页</h1>
+        <p>研究生 | 研究方向</p>
+        
+        <div class="info">
+            <h2>关于我</h2>
+            <p>这是个人主页的介绍内容，可根据需要进行修改。</p>
+            
+            <h2>研究兴趣</h2>
+            <ul>
+                <li>研究方向1</li>
+                <li>研究方向2</li>
+                <li>研究方向3</li>
+            </ul>
+            
+            <h2>代表论文</h2>
+            <ul>
+                <li>《论文标题1》</li>
+                <li>《论文标题2》</li>
+            </ul>
+            
+            <h2>联系方式</h2>
+            <div class="contact">
+                <a href="mailto:example@example.com">Email</a>
+                <a href="#">Google Scholar</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
